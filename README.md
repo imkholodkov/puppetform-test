@@ -12,3 +12,9 @@ npm test                 # видимый браузер, slowMo 150 мс
 SLOWMO=400 npm test      # медленнее
 npm run test:headless    # без окна
 ```
+
+## Скринкаст
+
+[video/puppetform-test.mov](video/puppetform-test.mov) — запуск теста в режиме slow mo: открывается
+окно браузера, заполняется форма, появляется окно «Спасибо большое за ваш вклад!», Jest выводит
+`Tests: 1 passed`.
