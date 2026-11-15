@@ -1,0 +1,10 @@
+{
+  "name": "puppetform-test",
+  "version": "1.0.0",
+  "description": "Автотест формы https://web-scriptor.ru/g/puppetform на Jest + Puppeteer (slow mo)",
+  "scripts": {
+    "test": "jest",
+    "test:headless": "HEADLESS=1 SLOWMO=0 jest"
+  },
+  "license": "MIT"
+}
