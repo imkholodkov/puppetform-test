@@ -1,4 +1,4 @@
-const puppeteer = require('puppeteer');
+import puppeteer from 'puppeteer';
 
 const URL = 'https://web-scriptor.ru/g/puppetform';
 const headless = process.env.HEADLESS === '1';

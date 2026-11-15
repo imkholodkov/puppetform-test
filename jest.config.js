@@ -1,1 +1,1 @@
-module.exports = { testTimeout: 120000, verbose: true };
+export default { testTimeout: 120000, verbose: true };
